@@ -1,5 +1,4 @@
 // Debug testing with the debug console
-
 const http = require('http');
 const requestHandler = require('./routes');
 
