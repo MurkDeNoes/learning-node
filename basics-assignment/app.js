@@ -1,3 +1,10 @@
+// Assignment:
+// Create a web server that has a homepage, a users-page, and a form to create a user.
+// - On '/' add a greeting and an input field where the user can fill out their username.
+// - On '/users' add a list of users.
+// - On '/create-user' parse the form data and console.log the username.
+// - When the user submits the form, redirect them to the homepage.
+
 const http = require('http');
 
 const server = http.createServer((req, res) => {
